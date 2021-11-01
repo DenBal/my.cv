@@ -1,19 +1,20 @@
 import React from 'react'
-import SkillsItem from "./SkillsItem/SkillsItem";
-import SkillsProps from "./types";
+import SkillsBlock from './SkillsBlock/SkillsBlock'
 
 import styles from './Skills.module.css'
+import frontSkills from '../../data/frontend_skills.json'
 
-const Skills:React.FC<SkillsProps> = (props:SkillsProps) => {
+const Skills:React.FC = () => {
     return (
-        <>
-            {props.data.map((skill:any) => (
-                <SkillsItem
-                    percent={skill.percent}
-                    url={skill.url}
-                    title={skill.title}
-                />
-            ))}
-        </>
+        <section className={styles.skills}>
+            <h3>
+                Навыки
+            </h3>
+            <div className={styles.skillsWrapper}>
+                <SkillsBlock name={'Frontend'} data={frontSkills} />
+            </div>
+        </section>
     )
 }
+
+export default Skills

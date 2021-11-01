@@ -1,3 +1,4 @@
 export default interface SkillsProps {
-    data: any
+    data: any,
+    name: string
 }

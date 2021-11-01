@@ -1,0 +1,37 @@
+[
+  {
+    "title": "HTML5",
+    "url": "",
+    "percent": 100
+  },
+  {
+    "title": "CSS3",
+    "url": "",
+    "percent": 100
+  },
+  {
+    "title": "LESS",
+    "url": "",
+    "percent": 85
+  },
+  {
+    "title": "SCSS",
+    "url": "",
+    "percent": 80
+  },
+  {
+    "title": "Javascript",
+    "url": "",
+    "percent": 90
+  },
+  {
+    "title": "React",
+    "url": "",
+    "percent": 80
+  },
+  {
+    "title": "Redux",
+    "url": "",
+    "percent": 75
+  }
+]
