@@ -1,8 +1,8 @@
 export interface HistoryItemProps {
     job: string,
     company: string,
-    dateStart: Date,
-    dateEnd: Date,
+    dateStart: string,
+    dateEnd: string,
     comment: string,
-    profit: []
+    profit: any
 }

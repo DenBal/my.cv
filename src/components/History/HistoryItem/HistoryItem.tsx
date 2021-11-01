@@ -17,10 +17,12 @@ const HistoryItem:React.FC<HistoryItemProps> = (props: HistoryItemProps) => {
             {props.profit &&
                 <ul>
                     {props.profit.map((item: any) => (
-                        <li>{item}</li>
+                        <li>{item.goal}</li>
                     ))}
                 </ul>
             }
         </div>
     )
 }
+
+export default HistoryItem
